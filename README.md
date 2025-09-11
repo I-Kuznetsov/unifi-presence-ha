@@ -1,35 +1,18 @@
-# Название проекта / Project Name
+# UniFi Presence for Home Assistant
 
-## Описание / Description
-Этот проект предназначен для ...  
-This project is intended for ...
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)
 
-## Установка / Installation
-1. Клонируйте репозиторий:  
-   `git clone https://github.com/I-Kuznetsov/unifi-presence-ha
-2. Перейдите в папку проекта:  
-   `cd repo`  
-3. Установите зависимости (если есть):  
-   `pip install -r requirements.txt`  
-   
-Clone the repository:  
-`git clone https://github.com/I-Kuznetsov/unifi-presence-ha
-Go to the project folder:  
-`cd repo`  
-Install dependencies (if any):  
-`pip install -r requirements.txt`  
+Интеграция Home Assistant для отображения присутствия пользователей UniFi.  
+Создаёт `binary_sensor` для каждого клиента с `1x_identity`, hostname или MAC-адресом.
 
-## Использование / Usage
-Пример запуска проекта:  
-`python main.py`  
+## ✨ Возможности
+- Автоматически обнаруживает клиентов UniFi
+- Создаёт `binary_sensor` для каждого клиента
+- Статус `on` = клиент активен в сети
+- Атрибуты: MAC, hostname, identity, last_seen
+- Поддержка настройки через UI (Config Flow)
 
-Example of running the project:  
-`python main.py`  
+## 🚀 Установка
 
-## Лицензия / License
-Этот проект лицензирован под лицензией MIT.  
-This project is licensed under the MIT License.
-
-## Контакты / Contact
-По вопросам пишите на email: example@mail.com  
-For questions, contact: example@mail.com
+### Через HACS
+1. В HACS → Интеграции → «Custom repositories» добавьте:
