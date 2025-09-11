@@ -6,14 +6,14 @@ This project is intended for ...
 
 ## Установка / Installation
 1. Клонируйте репозиторий:  
-   `git clone https://github.com/username/repo.git`  
+   `git clone https://github.com/I-Kuznetsov/unifi-presence-ha
 2. Перейдите в папку проекта:  
    `cd repo`  
 3. Установите зависимости (если есть):  
    `pip install -r requirements.txt`  
    
 Clone the repository:  
-`git clone https://github.com/username/repo.git`  
+`git clone https://github.com/I-Kuznetsov/unifi-presence-ha
 Go to the project folder:  
 `cd repo`  
 Install dependencies (if any):  
