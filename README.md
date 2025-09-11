@@ -10,7 +10,7 @@
 ## Установка через HACS
 1. Добавьте этот репозиторий в HACS как custom repository:
    ```
-   https://github.com/<your_github>/unifi-presence-ha
+   https://github.com/I-Kuznetsov/unifi-presence-ha
    ```
 2. Установите компонент UniFi Presence.
 3. Перезапустите Home Assistant.
