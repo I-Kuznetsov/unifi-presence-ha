@@ -16,7 +16,7 @@
 
 ### Через HACS
 1. В HACS → Интеграции → «Custom repositories» добавьте:
-https://github.com/](https://github.com/I-Kuznetsov/unifi-presence-ha
+https://github.com/I-Kuznetsov/unifi-presence-ha
 Repository type: `Integration`
 2. Установите «UniFi Presence».
 3. Перезапустите Home Assistant.
